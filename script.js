@@ -16,7 +16,7 @@ fetch('https://api.ipgeolocation.io/ipgeo?apiKey=f65680e1f7f94198b7ba017d06e3f4b
     console.log(visitorInfo);
 
     // Move the fetch request inside this block to ensure visitorInfo is defined
-    fetch('http://localhost:3000', {
+    fetch('https://mhmadab12.github.io/music-random/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
